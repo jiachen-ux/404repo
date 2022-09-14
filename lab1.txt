@@ -1,18 +1,31 @@
 Question 1: What is your GitHub URL?
-https://github.com/jiachen-ux
+- https://github.com/jiachen-ux
 
 Question 2: What version is the requests library installed on the system?
-2.27.1
+- 2.27.1
 
 Question 3: What version is the requests library installed in the virtualenv?
-2.28.1
+- 2.28.1
 
 Question 4: What is the difference between the virtual environment and the not virtual environment python?
-When loading packages, python in the virtual enviromnent will look for packages from the virtual machine(the venv file).
+
+- When loading packages, python in the virtual enviromnent will look for packages from the virtual machine(the venv file).
 The non virtual environment python will look for packages from the computer system files.
 
 Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
-301, http://www.google.com/
+
+- 301, http://www.google.com/
 
 Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
-Both curl -i and -iL return 301 for http://google.com/teapot. For http://www.google.com/teapot it returns 418
+
+- Both curl -i and -iL return 301 for http://google.com/teapot. For http://www.google.com/teapot it returns 418
+
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
+Are new when using curl -i -X POST -d "X=Y" 
+Post allows us to send message to HTML of the web page
+
+Question 8:
+- 
