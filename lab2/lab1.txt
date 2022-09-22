@@ -1,0 +1,20 @@
+Q1
+I can specify a socket by using create_tcp_socket() from socket library to open a socket
+Then I can use the host to get the remote ip.
+Finally I can make the connection by soket.connect by using remote ip and port.
+
+Q2
+Client socket needs to create a tcp socket
+it also innitate connection and send data.
+
+Server binds the socket and listen from the client.
+
+Q3
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+let us re-use the same bind port by setting SO_REUSEADDR to True.
+
+Q4
+Connected by ('127.0.0.1', 50932)
+
+Q5
+An empty string
