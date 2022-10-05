@@ -8,16 +8,6 @@ import secret
 from templates import after_login_incorrect, login_page
 from templates import secret_page
 
-def parse_cookies(cookie_string):
-    cookies = cookie_string.split(";")
-    result  = {}
-    for cookie in cookies:
-        split_cookie = cookie.split("=")
-        result[split_cookie[0]] = split_cookie[1]
-        
-    return result
-
-# cookies = parse_cookies(os.environ["HTTP_COOKIE"])
 
 form = cgi.FieldStorage()
 
